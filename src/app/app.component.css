@@ -1,7 +1,10 @@
 #ft-form {
-  font-family: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 100%;
   line-height: 1.15
+}
+h1{
+  text-align: center;
 }
 #ft-form *,
 #ft-form ::after,
@@ -11,7 +14,7 @@
 #ft-form input,
 #ft-form select,
 #ft-form textarea {
-  font-family: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -38,7 +41,7 @@
   line-height: 1.5
 }
 #ft-form body {
-  font-family: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: inherit
 }
 #ft-form *,
@@ -47,7 +50,7 @@
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
-  border-color: #e5e7eb
+  border-color: hsl(220, 67%, 4%)
 }
 #ft-form textarea {
   resize: vertical
@@ -167,8 +170,8 @@
 }
 #ft-form [type=checkbox]:checked,
 #ft-form [type=radio]:checked {
-  border-color: transparent;
-  background-color: currentColor;
+  border-color: blue;
+  background-color: blue;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat
@@ -184,12 +187,12 @@
 #ft-form [type=radio]:checked:focus,
 #ft-form [type=radio]:checked:hover {
   border-color: transparent;
-  background-color: currentColor
+  background-color: blue
 }
 #ft-form [type=checkbox]:indeterminate {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");
   border-color: transparent;
-  background-color: currentColor;
+  background-color:blue;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat
@@ -201,7 +204,7 @@
 }
 #ft-form [type=file] {
   background: unset;
-  border-color: inherit;
+  border-color: blue;
   border-width: 0;
   border-radius: 0;
   padding: 0;
@@ -284,8 +287,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #fff;
-  border-color: #6b7280;
+  background-color: rgb(218, 45, 22);
+  border-color: #be180c;
   border-width: 1px;
   border-radius: 0;
   padding-top: .5rem;
@@ -320,7 +323,7 @@
   border-radius: .375rem;
   margin-top: .25rem;
   box-shadow: 0 0 #0000,0 0 #0000,0 1px 2px 0 rgba(0,0,0,.05);
-  border-color: #bbb;
+  border-color: rgb(17, 1, 1);
   width: 100%
 }
 #ft-form [multiple] select,
@@ -384,7 +387,7 @@
 #ft-form .btns > input[type=reset],
 #ft-form .btns > input[type=submit] {
   display: inline-block;
-  box-shadow: 0 0 #0000,0 0 #0000,0 1px 2px 0 rgba(0,0,0,.05);
+  box-shadow: 0 0 rgba(4, 1, 7, 0),0 0 #0000,0 1px 2px 0 rgba(0,0,0,.05);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: .6rem;
@@ -393,7 +396,7 @@
   border-width: 1px;
   border-radius: .375rem;
   border-color: #bbb;
-  background-color: #fff;
+  background-color: rgb(252, 14, 14);
   cursor: pointer;
   margin-left: .5rem;
   font-weight: 700
@@ -407,7 +410,7 @@
   box-shadow: 0 0 0 2px #fff,0 0 0 4px rgba(199,210,254,.5),0 0 #0000
 }
 #ft-form .btns > input[type=submit] {
-  background-color: #f3f4f5;
+  background-color: #350cee;
   transition: background-color .1s
 }
 #ft-form .btns > input[type=submit]:hover {
