@@ -2,11 +2,14 @@ h1{
   text-align: center;
 }
 form{
-  background-color: rgb(102, 102, 99);
+  background-color: rgb(98, 99, 91);
 }
 form{
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
   border-color: hsl(0, 88%, 44%)
+}
+.btns{
+  text-align: center;
 }
