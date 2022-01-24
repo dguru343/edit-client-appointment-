@@ -2,7 +2,7 @@ h1{
   text-align: center;
 }
 form{
-  background-color: rgb(152, 153, 143);
+  background-color: rgba(54, 11, 245, 0.685);
 }
 form{
   box-sizing: border-box;
@@ -12,4 +12,7 @@ form{
 }
 .btns{
   text-align: center;
+}
+form{
+  size:50cm
 }
